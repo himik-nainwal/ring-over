@@ -1,0 +1,56 @@
+.team {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 3rem 0;
+
+    h1 {
+        display: block;
+        margin: auto;
+        width: fit-content;
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    .lines {
+        position: absolute;
+        width: 100%;
+        top: 30vh;
+        height: 1.5rem;
+        z-index: -1;
+        background-color: rgb(210, 210, 210);
+
+        &::after {
+            content: "";
+            height: inherit;
+            width: 100%;
+            position: absolute;
+            top: 4rem;
+            background-color: rgb(210, 210, 210);
+        }
+    }
+
+    .member_container {
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        gap: 2rem;
+        width: 100%;
+        margin: 2rem auto;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .team {
+
+        h1 {
+            font-size: 1.5rem;
+        }
+
+        .member_container {
+            flex-wrap: wrap;
+        }
+    }
+
+}

@@ -1,0 +1,57 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    justify-content: center;
+    margin: 4rem auto;
+    background-color: #fff;
+    padding: 3rem;
+    gap: 1.5rem;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    h1 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin: auto;
+    }
+
+    span {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+        h2 {
+            font-size: 1.3rem;
+            font-weight: 500;
+        }
+
+        p {
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+    }
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 2rem auto;
+    align-items: center;
+    gap: 1rem;
+
+    span {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 40%;
+}

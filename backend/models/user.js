@@ -1,20 +1,6 @@
 const mongoose = require("mongoose");
 
-const RequestSchema = new mongoose.Schema({
-    jobId: {
-      type: String,
-      required: true,
-      unique:true
-    },
-    resumeLink: {
-      type: String,
-      required: true
-    },
-    companyName: {
-      type: String,
-      required: true
-    }
-  });
+
 
 const UserSchema = new mongoose.Schema({
     name :{
@@ -47,8 +33,7 @@ const UserSchema = new mongoose.Schema({
     },
     expireToken: {
         type: Date,
-    },
-    requests: [RequestSchema]
+    }
 },
 {
     timestamps: true

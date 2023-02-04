@@ -147,7 +147,7 @@ function App() {
   }, [filter1, filter2, filter3, sneakers, loafers]);
 
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router >
       <div className="App">
         <Navbar />
         <Routes>

@@ -7,7 +7,8 @@ export default function Home() {
       <img className="bg" src={background} alt="bg" />
       <div className="contact">
       <div align="center">
-  <img alt="" src="https://saaslist.com/uploads/ringover-logo.png" height=" x "  />
+      <img alt="" src="https://saaslist.com/uploads/ringover-logo.png" height=" x "  />
+
   <p align="center">  
   </p>
   

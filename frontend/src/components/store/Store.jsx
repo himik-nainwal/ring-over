@@ -1,5 +1,5 @@
 import React from "react";
-import { IoFunnelOutline } from "react-icons/io5";
+// import { IoFunnelOutline } from "react-icons/io5";
 import "./store.scss";
 import { FiSearch } from "react-icons/fi";
 import Shoe from "./Shoe";

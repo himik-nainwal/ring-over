@@ -1,7 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
 import { BsStarFill, BsStarHalf } from 'react-icons/bs'
-import { AiOutlinePlus } from 'react-icons/ai'
+// import { AiOutlinePlus } from 'react-icons/ai'
 import "./shoe.scss";
 import bag from "../../images/bag.png"
 
